@@ -14,7 +14,7 @@ def energy(x):
     return x/rang
 
 def probability(en,e,T):
-    return np.e**(-((en-e)/abs(en))/T)
+    return np.e**(-((en-e)/abs(en))/T**6)
 
 def neighbor(x):
     xmax=10**5
